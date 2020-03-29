@@ -1,37 +1,268 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/yoonguensun/yoonguensun/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<!-- i love jekyll -->
+<!doctype html>
+<html ⚡ lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
+    <link rel="shortcut icon" href="https://shirtroom-ds.com/assets/home/favicon.png">
+    <meta name="theme-color" content="#005af0">
+    <!-- webFont nanumGothic -->
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&display=swap" rel="stylesheet">
+    <!-- AMP SETTING -->
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes
+-amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+    <script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+    <!-- google webmasterTool -->
+    <meta name="google-site-verification" content="HgA9dWWbkxjMJGCi7QnpSg1iGewX1gKfGGkNeYEMPrk" />
+    <!-- canonical -->
+    <link rel="canonical" href="https://shirtroom-ds.com/ad/10.html">
+    <!-- SEO -->
+    <meta name="author" content="다크애드">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <title>셔츠룸 터치</title>
+    <meta name="title" content="셔츠룸 터치">
+    <meta name="twitter:title" content="셔츠룸 터치">
+    <meta property="og:title" content="셔츠룸 터치">
 
-```markdown
-Syntax highlighted code block
+    <meta name="description" content="010-7928-4060 셔츠룸 터치! 짱구가 책임지는 24시간 잠들지 않는 서비스! 최저 주대로 모시고있습니다. 강남권 무료픽업 서비스.">
+    <meta name="twitter:description" content="010-7928-4060 셔츠룸 터치! 짱구가 책임지는 24시간 잠들지 않는 서비스! 최저 주대로 모시고있습니다. 강남권 무료픽업 서비스.">
+    <meta property="og:description" content="010-7928-4060 셔츠룸 터치! 돌쇠가 책임지는 24시간 잠들지 않는 서비스! 최저 주대로 모시고있습니다. 강남권 무료픽업 서비스.">
 
-# Header 1
-## Header 2
-### Header 3
+    <meta name="image" content="https://shirtroom-ds.com/assets/home/metaImage1200x1200.jpg">
+    <meta name="twitter:image" content="https://shirtroom-ds.com/assets/home/metaImage1200x1200.jpg">
+    <meta property="og:image" content="https://shirtroom-ds.com/assets/home/metaImage1200x1200.jpg">
 
-- Bulleted
-- List
+    <!-- structured data -->
+    <script type="application/ld+json">
+      {
+       "@context": "http://schema.org",
+       "@type": "NewsArticle",
+       "mainEntityOfPage":{
+         "@type":"WebPage",
+         "@id":"https://shirtroom-ds.com/ad/10.html"
+       },
+       "headline": "강남셔츠룸 짱구",
+       "image": {
+         "@type": "ImageObject",
+         "url": "https://shirtroom-ds.com/assets/home/headline800x800.jpg",
+         "height": 800,
+         "width": 800
+       },
+       "datePublished": "2020-01-10T08:00:00+00:00",
+       "dateModified": "2020-01-10T09:00:00+00:00",
+       "author": {
+         "@type": "Person",
+         "name": "짱구"
+       },
+       "publisher": {
+         "@type": "Organization",
+         "name": "짱구",
+         "logo": {
+           "@type": "ImageObject",
+           "url": "https://shirtroom-ds.com/assets/home/publisherLogo600x60.jpg",
+           "width": 600,
+           "height": 60
+         }
+       },
+       "description": "010-7928-4060 셔츠룸 터치! 짱구가 책임지는 24시간 잠들지 않는 서비스! 최저 주대로 모시고있습니다. 강남권 무료픽업 서비스."
+      }
+    </script>
+    <!-- AMP CSS-->
+        <style amp-custom>
+          /* master CSS */
+          *{box-sizing: border-box; margin: 0; padding: 0;}
+          body{font-family: 'Nanum Gothic', sans-serif; position: relative;}
 
-1. Numbered
-2. List
+          .callButtonBox{text-align: center; color: white;}
+          .callButtonBox a{background: #005af0; color: #fff; text-decoration: none;
+            padding: 0.5em 1em; vertical-align: middle; border-radius: 1em;
+            box-shadow: 0 10px 20px 0 rgba(0,0,0,.25);}
 
-**Bold** and _Italic_ and `Code` text
+          .descriptionBox{color: #fff; text-align: left; background: rgba(0, 0, 0, 0.5); padding: 0.5em;}
 
-[Link](url) and ![Image](src)
-```
+          .Breadcrumbs nav ul li{display: inline; line-height: 2em;}
+          .Breadcrumbs nav ul li a{color: #fff; text-decoration: none;}
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+        </style>
+<meta name="generator" content="Namo WebEditor(Trial)">  
+<meta http-equiv="content-type" content="text/html; charset=utf-8"></head>
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yoonguensun/yoonguensun/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+  <body>
+
+    <amp-story standalone
+  title='셔츠룸 터치'
+  publisher='짱구'
+  publisher-logo-src='https://shirtroom-ds.com/assets/home/logo100x100.jpg'
+  poster-portrait-src='https://shirtroom-ds.com/assets/home/poster696x928.jpg'
+  poster-square-src='https://shirtroom-ds.com/assets/home/poster928x928.jpg'
+  poster-landscape-src='https://shirtroom-ds.com/assets/home/poster928x696.jpg'>
+
+  <amp-story-page id="story01">
+    <amp-story-grid-layer template="fill">
+      <amp-img
+        layout='responsive'
+        src='https://shirtroom-ds.com/assets/home/poster696x928.jpg'
+        alt="셔츠룸 터치 이미지"
+        width='696'
+        height='928'></amp-img>
+    </amp-story-grid-layer>
+    <amp-story-grid-layer template="thirds">
+      <div class="callButtonBox"
+        grid-area='middle-third'>
+        <br><br><br><br><br>
+        
+        <a href='tel:010-7928-4060'
+          data-tooltip-icon='https://shirtroom-ds.com/assets/dataTooltipIcon.png'
+          data-tooltip-text='저를 터치해주세요 :D'>
+          터치해서 전화연결
+        </a>
+        
+      </div>
+      <div class="descriptionBox"
+        animate-in="fly-in-left"
+        animate-in-duration='1s'
+        grid-area="lower-third"
+        style="color:rgb(240,240,240); padding:1em; background: rgba(0, 0, 0, 0.5);">
+        <div
+          animate-in="fade-in"
+          animate-in-duration='2s'>
+          <h1 style='margin-bottom: 1em; font-size: 1.5em;'>셔츠룸 터치</h1>
+          <p style="font-size: 0.9em;">010-7928-4060 셔츠룸 터치! 짱구가 책임지는 24시간 잠들지 않는 서비스! 최저 주대로 모시고있습니다. 강남권 무료픽업 서비스.</p>
+        </div>
+      </div>
+    </amp-story-grid-layer>
+    <amp-story-page-attachment
+      layout="nodisplay"
+      data-cta-text='상세가격을 보시려면 끌어올려주세요'
+      theme='dark'
+      data-title='상세가격'
+      style='color: #fff; padding: 0.5em 0.5em 0; opacity:0.95;'>
+      <div class="attachmentInnerBox" style="padding:0.5em;">
+
+        <amp-img layout="responsive"
+          src="https://shirtroom-ds.com/assets/home/1.jpg"
+          width="800"
+          height="1131"
+          alt="셔츠룸 터치 가격 01"></amp-img>
+
+        <amp-img layout="responsive"
+          src="https://shirtroom-ds.com/assets/home/2.jpg"
+          width="800"
+          height="960"
+          alt="셔츠룸 터치 가격 02"></amp-img>
+
+        <amp-img layout="responsive"
+          src="https://shirtroom-ds.com/assets/home/3.jpg"
+          width="800"
+          height="1131"
+          alt="셔츠룸 터치 가격 03"></amp-img>
+
+        <amp-img layout="responsive"
+          src="https://shirtroom-ds.com/assets/home/4.jpg"
+          width="800"
+          height="1131"
+          alt="셔츠룸 터치 가격 04"></amp-img>
+
+        <br>
+        <a href="tel:010-7928-4060" style="color: #67ffff;">010-7928-4060 전화연결</a>
+        <br><br>
+
+        <hr>
+        <br>
+
+        <div class="Breadcrumbs">
+          <nav>
+            <ul style='color: #fff;'>
+              <p>다른글 보러가기</p><br>
+              <li>
+                <a href="https://shirtroom-ds.com" style='
+                  color: #67ffff; text-decoration: underline;
+                '>
+                  홈
+                </a>
+              </li><br>
+              <li>
+                <a href="https://shirtroom-ds.com/ad/list.html" style='
+                  color: #67ffff; text-decoration: underline;
+                '>
+                  글 목록
+                </a>
+              </li><br>
+            </ul>
+          </nav>
+        </div><br><hr>
+
+        <h3 style='color: rgb(128, 128, 128); margin-top: 2em;'>An Unbiased View Of 셔츠룸 터치</h3>
+        <br>
+        <p style='color: rgb(128, 128, 128);'>
+ 돈이 반드시 필요한 가출청소년은 결국 포주에게 고용되지 못하고 랜덤채팅 앱 등 개인적 방법을 사용하여 매춘을 할 수 밖에 없어진다.
+  <br><br>
+ 이런 과정에서 청소년 성노동자는 사전에 상의하지 않았거나 원하지 않는 스킨십을 강요받는 경우, 콘돔을 사용하지 않는 경우, 화대를 지급받지 못하는 경우, 신체적 폭력을 당하는 경우 등의 상황에서 보호받을 수 없게 된다.
+<br><br>
+  셔츠룸 터치를 보호하고자 만든 제도가 오히려 청소년을 위험 속으로 몰아넣는 것이다.  성노동자에 대한 낙인과 도덕적 비난은 매우 강력하다.
+  <br><br>
+  대부분의 사람은 성매매에 종사하는, 종사했강남짱구던 여성에 대해 부정적으로 생각하며, 혐오하기까지 한다.
+  <br><br>
+   보통 부모, 친구에게도 직업을 말할 수 없고, 결혼 상대에게도 마찬가지다.
+  <br><br>
+    성노동을 했다는 이유로 집에서 쫓겨나는 경우도 흔히 볼 수 있고, 만약 성노동자였던 것을 숨기고 결혼한다면 이혼 시의 귀책사유도 된다.  
+    <br><br>
+    가슴터치는 허용하는 편이나 젖꼭지를 너무 셔추룸 오래 만지는 것은 진상이므로 거절 가능
+    <br><br>
+    .  주소를 말할 때 : 기소 관련 우편물이 오는 곳은 보통 진술할 때 말한 주소이다.
+    <br><br>
+     그러나 경우에 따라 진술한 주소가 아니라 본적지로 우편물이 가는 경우도 있다고 한다.
+    <br><br>
+      이런 일이 일어나지 않도록 하려면, 조사를 받고 난 이후에 경찰서와 검찰 사무실(진행상황에 따라 관할이 다름)에 전화를 해서 우편을 어떤 주소로 보내주는지 꼭 한번 물어보는 것이 좋다.
+      <br><br>
+  남자의 로망을 현실로 만드는 강남 셔츠룸 시스템의 하이라이트 셔츠룸 터치.
+      <br><br>
+       일반 강남 가라오케나 정통 퍼블릭 룸에서는 절대 볼 수 없는 특별함 그 자체인 셔츠룸 인사와 터치.
+      <br><br>
+        그 느낌을 글로 표현할 수 없음을 양해 바라며 짧게 설명드리자면, 소개팅을 마친 파트너 스탭이 귀하의 무릎 위에 앉아서 하나만 남기고…(중략) 그리고 마지막으로 흰색 셔츠를 입습니다.
+        <br><br>
+  사회적 '여성성'을 갖춘 겉모습을 지녀야 한다. 성산업에서는 숏컷을 한 성노동자가 거의 없다. 있더라도 초이스가 잘 되지 않는다.  퍼블릭 테이블은 떼초인 반면 노도는 조를 이루지 않고 그냥 들어간다.
+        <br><br>
+         따라서 사이즈에 자신이 없거나 돈이 급하다면 노도를 나가는 것을 추천한다.
+        <br><br>
+          또한 노도는 손님들의 술 강요가 거의 없기 때문에, here 술을 마실 필요가 없다.
+          <br><br>
+  업소에 남성이 올 경우, 업소주인이 여성을 공급하는 점조직에 연락을 돌리고, 점조직 측에서 노동자를 공급하게 된다.
+          <br><br>
+           흔히 보도라고 불리는 것들이 이것이다.  자본주의는 자본이 없는 경우에서 우리들이 사회에서 생존하는 것을 어렵게 한다.
+          <br><br>
+            셔츠룸 터치는 자본주의 구조는 사람을 빈곤한 자와 부한 자로 양극화한다.
+            <br><br>
+             자본주의는 자신이 가진 자원과 노동력을 다른 사람에게 팔아서 돈을 벌도록 강제하며, 이 구조 하에서 사람들은 자신이 가진 것을 팔아서 생존할 수 밖에 없다. 
+            <br><br>
+ 청소년의 성노동은 비청소년의 성노동에 비해 안전장치가 없고, 불이익이 크기 때문에, 여러 가지 사정으로 인해 성노동을 시작해야 하는 상황이더라도 최대한 다른 방법을 강구하고 곰곰이 생각해보는 것이 좋다.
+            <br><br>
+  셔츠룸 터치 : 탄수화물이 지방으로 축적되는 것을 방해해 살이 찌는 것을 막는다. 가격이 저렴해 대부분의 다이어트보조제에 필수적으로 포함되는 성분이다.  
+            <br><br>
+             레깅스룸 : 홀복 하의가 레깅스여서 레깅스룸이라고 불린다.
+            <br><br>
+              방에 들어가서 윗옷과 브래지어를 벗고 망사티로 환복하는 인사 시스템이 있다.
+              <br><br>
+  성매매 업소의 에이스 성노동자들, 하이 업소의 성노동자들과 자신을 비교할 필요가 없다.
+              <br><br>
+               그 터치들은 성매매 업소 내에서도 높은 위치에 있는 사람들이다.  초보자우대.경력자우대.학생우대.투잡우대.백수우대.가족같은 분위기로 즐겁게 돈 벌어가세요^^
+
+        </p>
+      </div>
+    </amp-story-page-attachment>
+  </amp-story-page>
+
+</amp-story>
+
+
+  </body>
+</html>
+
